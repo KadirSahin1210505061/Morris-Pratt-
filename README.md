@@ -63,6 +63,7 @@ private static int[] ComputeNext(string pattern)
     return next;
 }
 
+
  Algoritmaların amacı, bir problemi çözmek için adım adım bir yöntem sağlamaktır. Morris-Pratt algoritması, bir metinde verilen bir kalıbı aramak için kullanılır. Bu algoritma, Boyer-Moore algoritmasına benzer, ancak farklı bir yaklaşım kullanır. Morris-Pratt algoritması, daha az karşılaştırma yapar ve daha az bellek kullanır. Algoritmanın çalışma şekli şu şekildedir:
 Bir next dizisi hesaplanır. Bu dizi, eşleşme olmadığında kalıbın hangi konumuna geri dönüleceğini belirtir.
 Text dizesinde kalıp aranır.
